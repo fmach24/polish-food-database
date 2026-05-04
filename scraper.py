@@ -51,8 +51,8 @@ PHASH_THRESHOLD = 10  # próg podobieństwa obrazów (0=identyczne, 64=zupełnie
 
 # Custom warianty zapytań dla każdej potrawy (możesz edytować!)
 QUERY_VARIANTS = {
-    'Kotlet Schabowy': ['kotlet schabowy'],
-    'Pierogi Ruskie': ['pierogi ruskie'],
+    'Kotlet Schabowy': ['kotlet schabowy'], # TODO DODAC WIĘCEJ WARIANTÓW BO MALO
+    'Pierogi Ruskie': ['pierogi ruskie'],   # TODO DODAC WIĘCEJ WARIANTÓW BO MALO
     'Rosol': ['rosół', 'rosol'],
     'Placki ziemniaczane': ['placki ziemniaczane', 'placki kartoflane'],
     'Zurek': ['żurek', 'żurku', 'żur', 'zupa żurek'],
@@ -60,8 +60,13 @@ QUERY_VARIANTS = {
     'Oscypek': ['oscypek', 'oscypki'],
     'Zupa ziemniaczana': ['zupa ziemniaczana', 'zupa kartoflana', 'potato soup'],
     'Pierogi z owocami': ['pierogi z owocami', 'pierogi słodkie', 'sweet pierogi', 'pierogi z jagodami'],
+    #TODO zmienic nazwe na SLODKIE PIEROGI
     'Bigos': ['bigos', 'bigos myśliwski'],
 }
+
+#TODO usunac augmentowane nieuzywane 
+#TODO baerdziej przefiltrować z vaild pod katem powtorek, bo na pewno są
+#TODO pousuwac zdj z tej kategori
 
 
 # ================================================================
